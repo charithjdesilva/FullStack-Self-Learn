@@ -2,3 +2,40 @@ Here this will include recapping my knowledge with what I have previously learne
 
 https://www.youtube.com/watch?v=RGOj5yH7evk
 
+Knowledge
+------------
+
+Git initialization
+Git Staging and Committing
+Git Branching
+
+Git vs GitHub
+
+Setting up a SSH key for laptop, and adding the public key to GitHub account
+Cloning a repo with SSH
+Committing to the repo from pushing local changes
+
+Creating a new Git Repo with a newly initialized local project 
+Adding a remote to the repo
+pushing changes
+(* when creating a repo, it creates the default branch as master, but in GitHub it is deprecated and they use main. So, we will have to checkout to a branch called main)
+
+Git branching
+to check current branches "git branch -v"
+
+Create and checkout to a new branch
+git branch -m "New branch name"
+	or
+git checkout "New branch name"
+
+----------------------------------------------
+
+Collaboration
+
+Git branch logics
+Why rebase often?
+git diff
+Creating a Pull Request (PR)
+Merging to main branch
+
+Merge Conflicts
