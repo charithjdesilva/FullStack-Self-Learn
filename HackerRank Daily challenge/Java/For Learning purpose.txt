@@ -1,0 +1,6 @@
+1. Not going to use ChatGPT or any AI, rather my own knowledge to solve the problems.
+
+2. As far as possible going to refer documentations, and StackOverflow.
+
+3. If used an AI, mention what have learned. 
+

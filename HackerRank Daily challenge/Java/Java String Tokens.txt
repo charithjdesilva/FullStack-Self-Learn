@@ -1,0 +1,29 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        String s = scan.nextLine();
+        // Write your code here.
+        String regex = "[ !,?._'@]+"; // don't use A-Za-z since [A-Za-z !,?._'@]+ is matching the whole string
+        String[] splittedTokens = s.split(regex);
+        
+        List<String> nonEmptyTokens = new ArrayList<String>();	// array list was used to create a dynamic array without defining the size
+        
+        for (String token : splittedTokens) {
+            if (!token.isEmpty()) {
+                nonEmptyTokens.add(token);	// if @ was present at beginig of string there can be empty tokens
+            }
+        }
+        
+        System.out.println(nonEmptyTokens.size());
+        for (String token : nonEmptyTokens) {
+            System.out.println(token);
+        }
+        
+        scan.close();
+    }
+}
+
